@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>JARVIS Drive privacy notice</title><style>body{max-width:48rem;margin:3rem auto;padding:0 1.2rem;font:18px/1.6 system-ui,sans-serif;color:#17202a;background:#fff}h1,h2{line-height:1.25}a{color:#174e9a}code{font-size:.9em}</style><main><h1>JARVIS Drive privacy notice</h1>
+<p>JARVIS Drive is an owner-operated, personal application. It is not offered to other users as a hosted service.</p>
+<h2>Google Drive permissions</h2>
+<p>The application requests <code>drive.readonly</code> and <code>drive.file</code>. Google&#x27;s read permission permits viewing and downloading files across the authorized Drive account. The file permission permits creating and managing files authorized for this application.</p>
+<p>The private JARVIS Drive service limits its file-transfer operations to the owner&#x27;s configured JARVIS folder and its Inbox and Outbox. That application restriction does not narrow Google&#x27;s underlying read permission.</p>
+<h2>How files are used</h2>
+<p>Inbox files are copied to the owner&#x27;s private JARVIS server. Files placed in the local Outbox are copied to Google Drive. Local deletion does not automatically delete the Google Drive copy.</p>
+<p>When the owner asks JARVIS to work with a file, relevant content may be sent to the owner&#x27;s configured AI provider to perform that task. Connecting Drive does not by itself instruct JARVIS to analyze every file. The service also keeps operational metadata needed to identify transferred versions and avoid repeated copies.</p>
+<h2>Storage and access</h2>
+<p>Google stores the Drive copies. The owner&#x27;s VPS stores local copies and connection credentials. The Drive connection runs under a separate operating-system identity; its credentials are not supplied to the assistant&#x27;s model as conversation text.</p>
+<p>File copies remain until the owner removes them. Backups may retain earlier copies under the owner&#x27;s backup practices. Revoking Google authorization stops future authorized access but does not delete existing local copies or backups.</p>
+<h2>Owner control</h2>
+<p>The owner can revoke the connection through their Google Account&#x27;s third-party connections settings and stop the JARVIS Drive service. The owner manages deletion separately in Google Drive, JARVIS storage, and backups.</p>
+<p>This notice describes the personal application&#x27;s file-exchange behavior. Google and the configured AI provider apply their own terms and privacy policies to data handled by their services.</p>
+<p>For connection questions, use the user-support email shown on the application&#x27;s Google consent screen.</p></main></html>
